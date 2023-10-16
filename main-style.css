@@ -1,0 +1,133 @@
+:root{
+    --red-purple: #6D3F5B;
+    --purple:#c850c0;
+    --yellow:#ffcc70;
+    --blue:#12C2E9;
+    --red:#F64F59;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/Roboto_Mono/static/RobotoMono-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SFMono';
+    src: url('fonts/SanFrancisco/SFUIDisplay-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: linear-gradient(45deg, var(--red-purple) ,var(--purple),var(--yellow));
+  }
+  
+  header img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  header h2 {
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    text-align: left;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Montserrat';
+    text-align: left;
+    padding: 6px 10px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: inherit;
+  }
+  
+  .chapter {
+    height: 330px;
+    width: 330px;
+    display:inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .chapter h3 {
+    font-size: inherit;
+  }
+  
+  .chapter img {
+    max-height: 20%;
+  }
+  
+  .chapter p {
+    font-weight: normal;
+  }
+  
+  .chapter {
+    border-radius: 24px;
+    transition: box-shadow 0.5s;
+    background: linear-gradient(45deg, var(--blue) ,var(--purple),var(--red));
+  }
+  
+  .chapter:hover {
+    box-shadow: 0px 5px 10px 10px rgba(34, 60, 80, 0.2) inset;
+  }
+  
+  .chapter a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .chapter a:hover {
+    color: #fff;
+  }
+  
+  footer {
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    font-size: 0.7em;
+    border-top: 1px solid black;
+  }
+  .gg{
+    display:block;
+    width: auto;
+    height: auto;
+    text-align:center;
+    border: 1px  solid black ;
+    border-radius: 24px;
+    column-count: 3;
+    margin-bottom: 30px;
+  }
+  header{
+    border-bottom: 1px solid black;
+  }
+  
+  
+  
