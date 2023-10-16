@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto/Roboto.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'SFMono';
+    src: url('fonts/SanFrancisco/SFUIDisplay-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+header,
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+header h1,
+footer h1 {
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 16px;
+}
+
+.code-block {
+    background-color: #6d757d;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-family: 'SFMono', monospace;
+    font-size: 0.85em;
+}
+
+.code-block p {
+    color: #24292E;
+}
+
+.code-block span.arg {
+    color: #BDECB6;
+}
+
+.code-block span.comment {
+    color: purple;
+}
+
+.logical-block {
+    text-align: 40px;
+}
+header img {
+    width: 50px;
+    height: 50px;
+  }
