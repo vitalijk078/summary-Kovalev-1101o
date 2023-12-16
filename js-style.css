@@ -1,0 +1,90 @@
+
+.header{
+    border-top: 10px #53c5ec solid ;
+    width: 250px;
+    height: 70px;
+    background-color: #525252;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+.container {
+    width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    height: 926px;
+    column-gap: 20px;
+}
+
+.item {
+    width: 32%;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    background-color: #86d1ff;
+    border-radius: 5px;
+}
+
+.item__header {
+    padding: 10px;
+    font-weight: 700;
+    color: #525252;
+}
+
+.item__row {
+    padding: 10px;
+    background-color: #ecf7fa;
+}
+
+.item__row:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+.item__row_left {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.item__row_right {
+    display: inline-block;
+    width: 65%;
+}
+button{
+    margin-bottom: 30px;
+    
+}
+.header1{
+    margin-left: 300px;
+    margin-top: -79px;
+    
+}
+.my_git{
+    color:#53c5ec
+    
+}
+.header2{
+    color: #53c5ec;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.border{
+    border-top: #525252 4px solid;
+    padding-top: -200px;
+}
+.love{
+    font-size: 20px;
+    
+}
