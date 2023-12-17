@@ -77,14 +77,46 @@ button{
     color: #53c5ec;
 }
 img{
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
+    margin-left:115px;
+    padding-bottom: 20px;
 }
 .border{
-    border-top: #525252 4px solid;
-    padding-top: -200px;
+    border-bottom: #525252 4px solid;
+    margin-top: 50px ;
+    border-radius: 5px;
+    
 }
 .love{
     font-size: 20px;
-    
+    margin-left: 40px;
+    color: #525252;
+}
+.date{
+    margin-left: 96px;
+    font-size: 17px;
+    color: #525252;
+}
+.hexlet{
+    margin-left: 160px;
+    font-size: 20px;
+    color: #53c5ec;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    float: none;
+}
+.bb{
+    margin-top: 226px;
+}
+.bbb{
+    border-bottom: #525252 4px solid;
+    margin-top: 46px ;
+    border-radius: 5px;
+}
+.my_gitt{
+    color: #53c5ec;
+    font-size: 20px;
 }
